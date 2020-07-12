@@ -14,7 +14,6 @@ describe App do
   end
 
   
-  end
 
   describe 'TextAnalyzer Class' do
     let!(:words) { TextAnalyzer.new("mirror mirror on the wall") }
